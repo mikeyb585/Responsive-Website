@@ -1,0 +1,33 @@
+/* Master styles */
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+header h1{
+    color: lightskyblue;
+}
+header h2{
+    color: grey;
+}
+article img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 10px solid orange;
+}
+a:link{
+    text-decoration: none;
+    color:gray;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color:lightskyblue;
+  }
+article h2{
+    color:lightskyblue;
+}
