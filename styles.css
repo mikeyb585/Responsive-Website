@@ -32,6 +32,9 @@
 }
 .header h2{
     color: grey;
+    font-style: italic;
+    line-height: .5;
+
 }
 .image{
     display: block;
@@ -84,7 +87,7 @@ a:hover {
 }
 .skills table{
     border-collapse: collapse;
-    width: 75%;
+    width: 180px;
 }
 .skills table td{
     text-align: left;
@@ -98,3 +101,40 @@ tr:nth-child(even) {background-color: lightskyblue;}
     font-size: 0.75em;
     padding-left: 5px;
 }
+/* Big Screens */
+@media only screen and (min-width: 760px) {
+    .home-wrapper{
+        grid-template-areas: 
+        "header header header header"
+        "image image image image"
+        "links links links links"
+        "dev dev dev dev"
+        "skills skills skills skills"
+        "footer footer footer footer";
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .header{
+        padding-bottom: 50px;
+        padding-left: 100px;
+    }
+    .links{
+        padding-bottom: 50px;
+    }
+    .development{
+        padding: 0px 100px 50px 100px;
+
+    }
+   .skills{
+       padding: 0px 100px 120px 100px;
+       grid-auto-columns: auto;
+
+   }
+
+  
+
+    
+
+}
+
