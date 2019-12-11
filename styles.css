@@ -24,7 +24,7 @@
 /* Header */
 .header{
     grid-area: header;
-    padding: 5px 0px 15px 5px;
+    padding: 5px 0px 30px 5px;
     text-align: left;
 }
 .header h1{
@@ -116,7 +116,7 @@ tr:nth-child(even) {background-color: lightskyblue;}
         margin: 0 auto;
     }
     .header{
-        padding-bottom: 50px;
+        padding-bottom: 60px;
         padding-left: 100px;
     }
     .links{
