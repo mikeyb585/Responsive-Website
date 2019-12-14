@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 62.5%;
 }
 .home-wrapper{
     display: grid;
@@ -30,14 +30,13 @@
 }
 .header h1{
     color: lightskyblue;
-    font-size: 2rem;
+    font-size: 21em;
 }
 .header h2{
     color: grey;
     font-style: italic;
     line-height: .5;
-    font-size: 1.5rem;
-
+    font-size: 18em;
 }
 .image{
     display: block;
@@ -51,10 +50,11 @@
 /* Links */
 .links{
     grid-area: links;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 30px;
     word-spacing: 10px;
     text-align: center;
+    font-size: 6.5em;
 }
 a:link{
     text-decoration: none;
@@ -76,7 +76,10 @@ a:hover {
 .development h2{
     color:lightskyblue;
     padding-bottom: 5px;
-    font-size: 1.5rem;
+    font-size: 10em;
+}
+.development p{
+    font-size: 6.5em;
 }
 
 /* Skills */
@@ -87,16 +90,18 @@ a:hover {
 .skills h2{
     color: lightskyblue;
     padding-bottom: 5px;
-    font-size: 1.5rem;
-    
+    font-size: 10em;   
 }
 .skills table{
     border-collapse: collapse;
-    width: 180px;
+    width: 160px;
+    font-size: 4em;
 }
 .skills table td{
     text-align: left;
     padding: 2px;
+    font-size: 4em;
+    
 }
 tr:nth-child(even) {background-color: lightskyblue;}
 
@@ -106,7 +111,7 @@ tr:nth-child(even) {background-color: lightskyblue;}
     padding-left: 5px;
 }
 .footer p{
-    font-size: .50rem
+    font-size: 8em; 
 }
 /* Big Screens */
 @media only screen and (min-width: 760px) {
@@ -138,7 +143,7 @@ tr:nth-child(even) {background-color: lightskyblue;}
        grid-auto-columns: auto;
     }
     .footer p{
-        font-size: .75rem
+  
     }
    
 
