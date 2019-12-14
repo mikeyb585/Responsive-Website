@@ -100,8 +100,7 @@ a:hover {
 .skills table td{
     text-align: left;
     padding: 2px;
-    font-size: 4em;
-    
+    font-size: 4em;   
 }
 tr:nth-child(even) {background-color: lightskyblue;}
 
@@ -142,9 +141,7 @@ tr:nth-child(even) {background-color: lightskyblue;}
        padding: 0px 100px 120px 100px;
        grid-auto-columns: auto;
     }
-    .footer p{
-  
-    }
+
    
 
   
