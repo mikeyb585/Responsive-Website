@@ -1,10 +1,10 @@
 /* Master styles */
 *{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; 
-  font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
 }
 .home-wrapper{
     display: grid;
@@ -30,11 +30,13 @@
 }
 .header h1{
     color: lightskyblue;
+    font-size: 2rem;
 }
 .header h2{
     color: grey;
     font-style: italic;
     line-height: .5;
+    font-size: 1.5rem;
 
 }
 .image{
@@ -48,11 +50,11 @@
 
 /* Links */
 .links{
-grid-area: links;
-padding-top: 10px;
-padding-bottom: 30px;
-word-spacing: 10px;
-text-align: center;
+    grid-area: links;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    word-spacing: 10px;
+    text-align: center;
 }
 a:link{
     text-decoration: none;
@@ -74,6 +76,7 @@ a:hover {
 .development h2{
     color:lightskyblue;
     padding-bottom: 5px;
+    font-size: 1.5rem;
 }
 
 /* Skills */
@@ -84,6 +87,7 @@ a:hover {
 .skills h2{
     color: lightskyblue;
     padding-bottom: 5px;
+    font-size: 1.5rem;
     
 }
 .skills table{
@@ -99,8 +103,10 @@ tr:nth-child(even) {background-color: lightskyblue;}
 /* Footer */
 .footer{
     grid-area: footer;
-    font-size: 0.75em;
     padding-left: 5px;
+}
+.footer p{
+    font-size: .50rem
 }
 /* Big Screens */
 @media only screen and (min-width: 760px) {
@@ -130,8 +136,11 @@ tr:nth-child(even) {background-color: lightskyblue;}
    .skills{
        padding: 0px 100px 120px 100px;
        grid-auto-columns: auto;
-
-   }
+    }
+    .footer p{
+        font-size: .75rem
+    }
+   
 
   
 
