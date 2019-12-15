@@ -36,7 +36,7 @@
     color: grey;
     font-style: italic;
     line-height: .5;
-    font-size: 18em;
+    font-size: 2.4rem;
 }
 .image{
     display: block;
@@ -54,7 +54,7 @@
     padding-bottom: 30px;
     word-spacing: 10px;
     text-align: center;
-    font-size: 6.5em;
+    font-size: 1.4rem;
 }
 a:link{
     text-decoration: none;
@@ -76,10 +76,10 @@ a:hover {
 .development h2{
     color:lightskyblue;
     padding-bottom: 5px;
-    font-size: 10em;
+    font-size: 2.4rem;
 }
 .development p{
-    font-size: 6.5em;
+    font-size: 1.4rem;
 }
 
 /* Skills */
