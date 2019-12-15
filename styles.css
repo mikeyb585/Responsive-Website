@@ -15,7 +15,7 @@
     "image image image image"
     "links links links links"
     "dev dev dev dev"
-    "skills skills skills skills"
+    ". skills skills ."
     "footer footer footer footer";
     width: 100%;
     max-width: 960px;
@@ -51,7 +51,7 @@
 .links{
     grid-area: links;
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     word-spacing: 10px;
     text-align: center;
     font-size: 2rem;
@@ -78,6 +78,7 @@ a:hover {
     color:lightskyblue;
     padding-bottom: 5px;
     font-size: 2.4rem;
+    text-align: center;
 }
 .development p{
     font-size: 1.6rem;
@@ -87,6 +88,7 @@ a:hover {
 .skills{
     grid-area: skills;
     padding: 0px 20px 80px 20px;
+    text-align: center;
 }
 .skills h2{
     color: lightskyblue;
