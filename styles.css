@@ -15,7 +15,7 @@
     "image image image image"
     "links links links links"
     "dev dev dev dev"
-    ". skills skills ."
+    "skills skills skills skills"
     "footer footer footer footer";
     width: 100%;
     max-width: 960px;
@@ -72,11 +72,11 @@ a:hover {
 /* Development */
 .development{
     grid-area: dev;
-    padding: 0px 20px 30px 20px;
+    padding: 0px 20px 50px 20px;
 }
 .development h2{
     color:lightskyblue;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 2.4rem;
     text-align: center;
 }
@@ -88,24 +88,24 @@ a:hover {
 .skills{
     grid-area: skills;
     padding: 0px 20px 80px 20px;
-    text-align: center;
 }
 .skills h2{
     color: lightskyblue;
-    padding-bottom: 5px;
-    font-size: 10em;   
+    padding-bottom: 10px;
+    font-size: 2.4rem;
+    text-align: center;    
 }
 .skills table{
     border-collapse: collapse;
-    width: 160px;
-    font-size: 4em;
+    width: 250px;
 }
 .skills table td{
-    text-align: left;
-    padding: 2px;
-    font-size: 4em;   
+    padding: 3px 10px 3px 10px;
+    font-size: 1.6rem;
 }
-tr:nth-child(even) {background-color: lightskyblue;}
+tr:nth-child(even){
+    background-color: lightskyblue;
+}
 
 /* Footer */
 .footer{
@@ -113,7 +113,7 @@ tr:nth-child(even) {background-color: lightskyblue;}
     padding-left: 5px;
 }
 .footer p{
-    font-size: 8em; 
+    font-size: 0.8rem; 
 }
 /* Big Screens */
 @media only screen and (min-width: 760px) {
