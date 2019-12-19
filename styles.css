@@ -64,10 +64,6 @@ a:link{
 a:visited {
     color:gray;
 }
-a:hover {
-    text-decoration: underline;
-    color: lightskyblue;
-}
 
 /* Development */
 .development{
@@ -136,8 +132,12 @@ tr:nth-child(even){
     .links{
         padding-bottom: 50px;
     }
+    a:hover {
+        text-decoration: underline;
+        color: lightskyblue;
+    }
     .development{
-        padding: 0px 100px 50px 100px;
+        padding: 0px 240px 50px 240px;
 
     }
    .skills{
