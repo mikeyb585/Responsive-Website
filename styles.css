@@ -139,12 +139,9 @@ tr:nth-child(even){
         color: lightskyblue;
     }
 
-
+    .footer p{
+        text-align: left;
+    }
    
-
-  
-
-  
-
 }
 
